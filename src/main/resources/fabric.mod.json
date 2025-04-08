@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "valor_dungeons",
+  "version": "${version}",
+  "name": "Valor Dungeons",
+  "description": "Custom dungeons for the Valor modpack",
+  "authors": [
+    "Thrasos",
+    "Pixel Dream Studios"
+  ],
+  "license": "GPL-3.0",
+  "icon": "assets/valor_dungeons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.pixeldreamstudios.valor_dungeons.client.ValorDungeonsClient"
+    ],
+    "main": [
+      "net.pixeldreamstudios.valor_dungeons.ValorDungeons"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "dungeonz": ">=1.2.1+1.21.1"
+  }
+}
