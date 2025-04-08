@@ -35,6 +35,9 @@ public class CreativeModeTabRegistry {
               creativeModeTab.accept(ItemRegistry.SKULL_HAVEN_KEY);
               creativeModeTab.accept(ItemRegistry.TOMB_OF_ANUBIS_KEY);
               creativeModeTab.accept(ItemRegistry.JAGUAR_TEMPLE_KEY);
+              creativeModeTab.accept(ItemRegistry.SKULL_HAVEN_SOUL);
+              creativeModeTab.accept(ItemRegistry.TOMB_OF_ANUBIS_SOUL);
+              creativeModeTab.accept(ItemRegistry.JAGUAR_TEMPLE_SOUL);
             });
   }
 }

@@ -13,6 +13,12 @@ public class ItemRegistry {
       register(new Item(new Item.Properties().stacksTo(1)), "tomb_of_anubis_key");
   public static final Item JAGUAR_TEMPLE_KEY =
       register(new Item(new Item.Properties().stacksTo(1)), "jaguar_temple_key");
+  public static final Item SKULL_HAVEN_SOUL =
+      register(new Item(new Item.Properties().stacksTo(1)), "skull_haven_soul");
+  public static final Item TOMB_OF_ANUBIS_SOUL =
+      register(new Item(new Item.Properties().stacksTo(1)), "tomb_of_anubis_soul");
+  public static final Item JAGUAR_TEMPLE_SOUL =
+      register(new Item(new Item.Properties().stacksTo(1)), "jaguar_temple_soul");
 
   public static Item register(Item item, String id) {
     ResourceLocation itemID = ResourceLocation.fromNamespaceAndPath(ValorDungeons.MOD_ID, id);
